@@ -244,6 +244,41 @@ footer{
     width: 100%;
 }
 
+/* sign up page*/
+
+#sign-up {
+    clear: both;
+}
+
+#form {
+    margin: 0 auto;
+    width: 60%;
+    background-color: aqua;
+    padding: 30px 50px;
+}
+
+.input-box {
+    border: 1px solid #3a3a3a;
+}
+
+.button {
+    background-color: blue;
+    border-radius: 5px;
+    color: #fafafa;
+    padding: .4em;
+    margin-top: 10px;
+    font-size: medium;
+}
+
+.block {
+    display: block;
+    margin-top: 10px;
+}
+
+#form h1 {
+    text-align: center;
+}
+
 /* media queries */
 
 @media screen and (max-width:1200px){
