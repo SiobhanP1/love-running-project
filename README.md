@@ -1,108 +1,151 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Love Running Website
 
-Welcome SiobhanP1,
+## Purpose
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This website is based on the Love Running Walkthrough Project provided by Code Institute. The goal was to practice using HTML and CSS to build a basic website. 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+The purpose of the Love Running website is to:
+* generate interest in the club and share the club's goals. 
+* share a map showing running meeting points.
+* share photos of recent club events.
+* share the club's running timetables and locations. 
+* provide various contact options for interested runners.
+* provide links to the club's social media pages. 
 
-## Gitpod Reminders
+The website is targeted at runners who would like to join a running club. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## User Stories 
 
-`python3 -m http.server`
+* As a visiting user, I want to know if the goals of the club align with my own so that I can decide if it is worth joining them.  
+* As a visiting user, I want to know when and where the runners meet so that I know if it is possible to join them. 
+* As a visiting user, I want to know how to contact the club so that I can find out more. 
 
-A blue button should appear to click: _Make Public_,
+## Features
 
-Another blue button should appear to click: _Open Browser_.
+### Navigation Bar
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* The navigation bar is large, colorful and in a prominent location on each page. 
+* It contains links to the Home page, Resume page, Contact page and a Download CV button. 
 
-A blue button should appear to click: _Make Public_,
+### Name, Job Title and Profile Photo
 
-Another blue button should appear to click: _Open Browser_.
+* The individual's name and job title form the main heading on each page.
+* A large professional photo appears at the top of each page.
+* The design is intended to mimic the style and arrangement of information on a typical CV.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Footer
 
-To log into the Heroku toolbelt CLI:
+* The same footer appears at the bottom of each page.
+* It contains a short 'About' summary, a 'CV Download' button, and links to social media pages.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### 'Personal Information' and 'About Me' Sections
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+* The Home page displays both Personal Information and About Me sections. 
+* The Personal Information section shows the person's name, address and phone number.
+* The About Me section contains texts that answer the questions 'What do I do?', 'How do I do it?' and 'Why Hire Me?'
 
-------
+### Work History Timeline
 
-## Release History
+* The Resume page contains a Work History Timeline.
+* The timeline shows key places of employment, job titles and dates of work, up to the present.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Skills Section
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+* The Resume page contains a Skills sections.
+* This section lists various programming languages.
+* The level of skill attained in each language is shown using a Progress Bar. 
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### Contact Form
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+* The Contact page contains a form allowing input of a site visitor's email address and a project proposal.
+* Visitors are invited to suggest projects to collaborate on. 
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### Option to Download PDF of CV
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+* Visitors can download a PDF of the individual's CV simply by clicking on the 'Download' button in the main nav bar on each page.
+* There is also a download button in the footer of each page.
+* Clicking 'Download' opens a PDF in a new tab in the visitor's browser.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Future Features
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+* A project page in which key projects built are displayed in the form of cards, each containing a project image and a short summary. Options to visit the live site or open the Github repository for each. 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Typography and Color Schemes 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Typography
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+* 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Color Scheme
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+* 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Wireframes
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+* 
 
-------
+## Technology
 
-## FAQ about the uptime script
+* HTML was used to structure the pages and add features.
+* CSS was used to style the pages and features.
+* Github was used to store and to share the repository.
+* Gitpod was used to edit the code.
+* Chrome DevTools was used to check responsiveness and for debugging.
+* Bootstrap was used to source icons and for much of the styling and layout.
 
-**Why have you added this script?**
+## Testing
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+### Code Validation
 
-**How will this affect me?**
+* 
+### Test Cases 
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+#### The Home Page
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+* 
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+### Fixed Bugs
 
-**So….?**
+* 
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+### Supported Screens and Browsers
 
-**Can I opt out?**
+* A mobile-first approach was taken for design. 
+* It has not been tested on browsers other than Chrome. 
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+## Deployment
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+### Via Gitpod
 
-**Anything more?**
+To open up the site in Gitpod, follow the following steps:
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+1. Go to http://github.com.
+2. Open up the 'SiobhanP1/bootstrap-resume-mini-project' repository.
+3. Click 'Gitpod' to open up a workspace in Gitpod.
+4. Enter the command `python3 -m http.server` in the terminal to open a port.
+5. A small box will appear. 
+6. Click 'Open in browser' to open the site in a new tab. 
 
----
+### Via Github Pages
 
-Happy coding!
+The site was deployed to Github Pages by following the steps below.
+
+1. Open up the 'SiobhanP1/bootstrap-resume-mini-project' repository in Github.
+2. Click 'Settings'.
+3. Click 'Pages' (located in the sidebar under Code and Automation).
+4. Select 'Deploy from Branch' from the Source drop-down menu.
+5. Select 'Main' from the Branch drop-down menu.
+6. Click 'Save'.
+7. Wait a minute then refresh the page to see the site link.
+
+* Live link: 
+
+## Credits
+
+### Images
+
+* The hero image of the woman that appears on each page was taken from [Unsplash](http://www.unsplash.com). 
+
+### Other
+
+* The main layout and design decisions were those provided in the Bootstrap Resume Walkthrough Project at Code Institute.
