@@ -24,51 +24,41 @@ The website is targeted at runners who would like to join a running club.
 
 ### Navigation Bar
 
-* The navigation bar is large, colorful and in a prominent location on each page. 
-* It contains links to the Home page, Resume page, Contact page and a Download CV button. 
+* The navigation bar is located at the top of each page.
+* It contains links to the home page, gallery page and contact page. 
 
-### Name, Job Title and Profile Photo
+### Hero Image
 
-* The individual's name and job title form the main heading on each page.
-* A large professional photo appears at the top of each page.
-* The design is intended to mimic the style and arrangement of information on a typical CV.
+* A large background image of happy runners appears behind the main heading on the home page. 
+* Some animation has been added so that it appears to zoom in when the page loads.
+* It helps to draw the user's attention to the page.
 
 ### Footer
 
 * The same footer appears at the bottom of each page.
-* It contains a short 'About' summary, a 'CV Download' button, and links to social media pages.
+* It contains links to various social media pages. 
 
-### 'Personal Information' and 'About Me' Sections
+### 'Why love running with us?' Section
 
-* The Home page displays both Personal Information and About Me sections. 
-* The Personal Information section shows the person's name, address and phone number.
-* The About Me section contains texts that answer the questions 'What do I do?', 'How do I do it?' and 'Why Hire Me?'
+* The 'Why love running with us?' section on the home page gives reasons for the user to consider joining the club. 
 
-### Work History Timeline
+### Running Timetable
 
-* The Resume page contains a Work History Timeline.
-* The timeline shows key places of employment, job titles and dates of work, up to the present.
+* The timetable on the Home page gives the times, locations, and distances of the scheduled runs every week.
+* A background image provides visual interest. 
 
-### Skills Section
+### Gallery
 
-* The Resume page contains a Skills sections.
-* This section lists various programming languages.
-* The level of skill attained in each language is shown using a Progress Bar. 
+* The gallery on the second page shows images of happy runners participating in different club running events. 
+* It helps the user to imagine what their experience would be if they were to participate. 
 
-### Contact Form
+### Sign Up Form
 
-* The Contact page contains a form allowing input of a site visitor's email address and a project proposal.
-* Visitors are invited to suggest projects to collaborate on. 
-
-### Option to Download PDF of CV
-
-* Visitors can download a PDF of the individual's CV simply by clicking on the 'Download' button in the main nav bar on each page.
-* There is also a download button in the footer of each page.
-* Clicking 'Download' opens a PDF in a new tab in the visitor's browser.
+* The Sign Up form on the third page provides a means for users to contact the club by email in order to gain more information or request to join the club. 
 
 ## Future Features
 
-* A project page in which key projects built are displayed in the form of cards, each containing a project image and a short summary. Options to visit the live site or open the Github repository for each. 
+* An improved sign up form. 
 
 ## Typography and Color Schemes 
 
@@ -91,7 +81,6 @@ The website is targeted at runners who would like to join a running club.
 * Github was used to store and to share the repository.
 * Gitpod was used to edit the code.
 * Chrome DevTools was used to check responsiveness and for debugging.
-* Bootstrap was used to source icons and for much of the styling and layout.
 
 ## Testing
 
@@ -110,8 +99,7 @@ The website is targeted at runners who would like to join a running club.
 
 ### Supported Screens and Browsers
 
-* A mobile-first approach was taken for design. 
-* It has not been tested on browsers other than Chrome. 
+* This site has not been tested on browsers other than Chrome. 
 
 ## Deployment
 
@@ -120,25 +108,11 @@ The website is targeted at runners who would like to join a running club.
 To open up the site in Gitpod, follow the following steps:
 
 1. Go to http://github.com.
-2. Open up the 'SiobhanP1/bootstrap-resume-mini-project' repository.
+2. Open up the 'SiobhanP1/love-running' repository.
 3. Click 'Gitpod' to open up a workspace in Gitpod.
 4. Enter the command `python3 -m http.server` in the terminal to open a port.
 5. A small box will appear. 
 6. Click 'Open in browser' to open the site in a new tab. 
-
-### Via Github Pages
-
-The site was deployed to Github Pages by following the steps below.
-
-1. Open up the 'SiobhanP1/bootstrap-resume-mini-project' repository in Github.
-2. Click 'Settings'.
-3. Click 'Pages' (located in the sidebar under Code and Automation).
-4. Select 'Deploy from Branch' from the Source drop-down menu.
-5. Select 'Main' from the Branch drop-down menu.
-6. Click 'Save'.
-7. Wait a minute then refresh the page to see the site link.
-
-* Live link: 
 
 ## Credits
 
@@ -148,4 +122,4 @@ The site was deployed to Github Pages by following the steps below.
 
 ### Other
 
-* The main layout and design decisions were those provided in the Bootstrap Resume Walkthrough Project at Code Institute.
+* The main layout and design decisions were those provided in the Love Running Walkthrough Project at Code Institute.
